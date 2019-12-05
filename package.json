@@ -4,6 +4,7 @@
   "description": "play babel for fun",
   "main": "index.js",
   "dependencies": {
+    "@babel/polyfill": "^7.7.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "babel-template": "^6.26.0",
@@ -11,7 +12,11 @@
     "babel-types": "^6.26.0",
     "babylon": "^6.18.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  },
   "scripts": {
     "test": "npm run dev"
   },
