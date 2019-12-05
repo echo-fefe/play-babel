@@ -1,0 +1,28 @@
+{
+  "name": "play-babel",
+  "version": "1.0.0",
+  "description": "play babel for fun",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-template": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echo-fefe/play-babel.git"
+  },
+  "author": "echo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echo-fefe/play-babel/issues"
+  },
+  "homepage": "https://github.com/echo-fefe/play-babel#readme"
+}
